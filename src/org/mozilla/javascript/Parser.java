@@ -3090,6 +3090,9 @@ public class Parser
 
           case Token.RESERVED:
               consumeToken();
+              if ("class".equals(ts.getString())) {
+                  throw new IOException("class");
+              }
               reportError("msg.reserved.id", ts.getString());
               break;
 
