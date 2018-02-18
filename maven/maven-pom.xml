@@ -9,15 +9,16 @@
     <version>7</version>
   </parent>
 
-  <groupId>org.mozilla</groupId>
+  <groupId>nu.validator</groupId>
   <artifactId>rhino</artifactId>
-  <name>Mozilla Rhino</name>
-  <version>1.7.9-SNAPSHOT</version>
+  <name>Rhino</name>
+  <version>1.7.8-1</version>
 
   <packaging>jar</packaging>
   <description>
       Rhino is an open-source implementation of JavaScript written entirely in Java. It is typically
-      embedded into Java applications to provide scripting to end users.
+      embedded into Java applications to provide scripting to end users. This version is a fork for
+      use with the Nu Html Checker.
   </description>
   <url>https://developer.mozilla.org/en/Rhino</url>
 
@@ -29,13 +30,13 @@
   </licenses>
 
   <scm>
-    <connection>scm:git:git@github.com:mozilla/rhino.git</connection>
-    <developerConnection>scm:git:git@github.com:mozilla/rhino.git</developerConnection>
-    <url>git@github.com:mozilla/rhino.git</url>
+    <connection>scm:git:git@github.com:validator/rhino.git</connection>
+    <developerConnection>scm:git:git@github.com:validator/rhino.git</developerConnection>
+    <url>git@github.com:validator/rhino.git</url>
   </scm>
 
   <organization>
-    <name>The Mozilla Foundation</name>
-    <url>http://www.mozilla.org</url>
+    <name>The Nu Html Checker</name>
+    <url>https://github.com/validator</url>
   </organization>
 </project>
